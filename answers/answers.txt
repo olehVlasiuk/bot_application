@@ -16,3 +16,21 @@ Correct Answers: 2
 Incorrect Answers: 2
 Accuracy: 50.0% 🙂
 
+
+Test Results:
+Name: Oleg
+Start time: 2023-05-29 22:32:15
+Total Questions: 4
+Correct Answers: 1
+Incorrect Answers: 3
+Accuracy: 25.0% 😕
+
+
+Test Results:
+Name: A
+Start time: 2023-05-29 22:37:33
+Total Questions: 4
+Correct Answers: 2
+Incorrect Answers: 2
+Accuracy: 50.0% 🙂
+

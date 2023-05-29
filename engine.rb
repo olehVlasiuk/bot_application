@@ -34,11 +34,7 @@ class Engine
   end
 
   def check(user_answer, correct_answer)
-    if user_answer == correct_answer
-      @statistics.correct_answer
-    else
-      @statistics.incorrect_answer
-    end
+    user_answer == correct_answer ? @statistics.correct_answer : @statistics.incorrect_answer
   end
 
   def get_username
