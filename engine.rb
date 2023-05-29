@@ -62,7 +62,7 @@ class Engine
     answer.upcase
   end
 
-  # метод для завантаження запису колекцій запитань 
+  # метод для запису колекцій запитань 
   def load_question_collection
     question_data = QuestionData.new('yml', 'questions.yml')
     question_data.collection
