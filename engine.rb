@@ -33,10 +33,12 @@ class Engine
     @statistics.print_report
   end
 
+  # метод для перевiрки та ведення статистики
   def check(user_answer, correct_answer)
     user_answer == correct_answer ? @statistics.correct_answer : @statistics.incorrect_answer
   end
 
+  # метод для введення імені користувача з валідацією
   def get_username
     username = @input_reader.read(
       welcome_message: 'Enter your name:',
@@ -47,7 +49,8 @@ class Engine
 
     username
   end  
-
+  
+  # метод для введення відповіді користувача з валідацією
   def get_answer_by_char(question)
     answer = @input_reader.read(
       welcome_message: 'Enter your answer:',
@@ -59,6 +62,7 @@ class Engine
     answer.upcase
   end
 
+  # метод для завантаження запису колекцій запитань 
   def load_question_collection
     question_data = QuestionData.new('yml', 'questions.yml')
     question_data.collection
