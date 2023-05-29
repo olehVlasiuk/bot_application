@@ -1,0 +1,31 @@
+- question: "Which car brand is known for producing the Mustang?"
+  answers:
+    - Ford
+    - Chevrolet
+    - Toyota
+    - Honda
+  correct_answer: Ford
+
+- question: "What is the top-selling electric car model worldwide?"
+  answers:
+    - Tesla Model S
+    - Nissan Leaf
+    - Chevrolet Bolt EV
+    - BMW i3
+  correct_answer: Tesla Model S
+
+- question: "Which car company is famous for its 911 sports car?"
+  answers:
+    - Ferrari
+    - Lamborghini
+    - Porsche
+    - Aston Martin
+  correct_answer: Porsche
+
+- question: "What is the most popular luxury car brand?"
+  answers:
+    - Mercedes-Benz
+    - BMW
+    - Audi
+    - Lexus
+  correct_answer: Mercedes-Benz
